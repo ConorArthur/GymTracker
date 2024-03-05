@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/graphLayout"
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.example.gymtracker.LineGraphView
+            android:id="@+id/lineGraphView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <LinearLayout
+        android:id="@+id/databaseDataLayout"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distance: "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/durationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration: "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/gradientTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gradient: "
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/dateAddedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date Added: "
+            android:textSize="30sp" />
+        -->
+    </LinearLayout>
+</LinearLayout>
